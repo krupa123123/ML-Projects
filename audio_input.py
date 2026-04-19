@@ -7,7 +7,7 @@ import warnings
 
 # Suppress FP16 warning on CPU
 warnings.filterwarnings("ignore", message="FP16 is not supported on CPU; using FP32 instead")
-
+#added
 try:
     import sounddevice as sd
     SOUNDDEVICE_AVAILABLE = True

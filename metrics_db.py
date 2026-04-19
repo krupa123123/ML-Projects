@@ -2,7 +2,7 @@ import sqlite3
 import json
 from datetime import datetime
 from pathlib import Path
-
+#added
 class ProgressDB:
     def __init__(self, db_path="progress.db"):
         self.db_path = db_path

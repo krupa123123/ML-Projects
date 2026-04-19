@@ -62,7 +62,7 @@ Be honest but constructive. Technical audiences value precision over polish."""
                 temperature=0.4,
                 max_tokens=800
             )
-            
+            #added
             result = json.loads(response.choices[0].message.content)
             
             return CommunicationFeedback(

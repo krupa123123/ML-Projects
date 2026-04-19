@@ -27,7 +27,7 @@ def init_recorder():
             st.session_state.recorder = AudioRecorder(model_size="base")
     return st.session_state.recorder
 
-# Sidebar
+# Sidebargit
 with st.sidebar:
     st.header("⚙️ Settings")
     api_key = st.text_input("OpenAI API Key", type="password", value=st.session_state.api_key)
